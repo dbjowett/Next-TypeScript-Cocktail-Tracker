@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import { SingleCocktail } from '../interfaces';
 
 interface PageProps {
-  // There will be an 'addCocktail' prop : with a function type
   addCocktail: (text: string) => void;
 }
 
